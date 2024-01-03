@@ -1,0 +1,37 @@
+.download {
+    padding: 115px 0;
+}
+.download-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download-content__title {
+    font-weight: 500;
+    font-size: 30px;
+    color: #000;
+}
+.download-content__text {
+    margin-top: 30px;
+}
+.download-content__text p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+}
+.download-content__button {
+    margin-top: 47px;
+}
+.download-content__button a {
+    width: 370px;
+    height: 80px;
+    font-weight: 900;
+    font-size: 24px;
+    color: #fff;
+    background-color: #ff4343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}

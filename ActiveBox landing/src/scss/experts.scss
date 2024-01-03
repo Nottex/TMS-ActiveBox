@@ -1,0 +1,60 @@
+.experts {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+.experts-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+.experts-list__item {
+    width: 270px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.experts-list__item-img {
+    width: 270px;
+    height: 270px;
+}
+.experts-list__item-name {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #2D3033;
+    font-size: 24px;
+}
+.experts-list__item-profession {
+    margin-top: 5px;
+    font-weight: 400;
+    color: #FF4343;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.experts-list__item-info {
+    margin-top: 17px;
+}
+.experts-list__item-info p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #6C7279;
+}
+.experts-list__item-links {
+    display: flex;
+    margin-top: 38px;
+}
+.experts-list__item-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 39px;
+    height: 39px;
+    border: 1px solid #C6CBCD;
+    margin-right: 6px;
+}
+.experts-list__item-links a:last-child {
+    margin-right: 0px;
+}
+.experts-list__item-links i {
+    font-size: 20px;
+    color: #C6CBCD;
+}
