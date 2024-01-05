@@ -1,10 +1,14 @@
 @import url('./_fonts.scss');
+@import url('./_cdn.scss');
+@import url('./_variables.scss');
+@import url('./_mixins.scss');
 @import url('./header.scss');
 @import url('./features.scss');
 @import url('./projects.scss');
 @import url('./experts.scss');
-@import url('./_cdn.scss');
 @import url('./download.scss');
+@import url('./info.scss');
+@import url('./footer.scss');
 
 * {
     margin: 0;

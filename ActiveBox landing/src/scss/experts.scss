@@ -6,12 +6,11 @@
     display: flex;
     justify-content: space-between;
     margin: 0 -15px;
+    // flex-wrap: wrap;
 }
 .experts-list__item {
     width: 270px;
     margin: 0 15px;
-    display: flex;
-    flex-direction: column;
 }
 .experts-list__item-img {
     width: 270px;
