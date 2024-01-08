@@ -9,12 +9,16 @@
     // flex-wrap: wrap;
 }
 .experts-list__item {
-    width: 270px;
+    max-width: 260px;
     margin: 0 15px;
 }
 .experts-list__item-img {
-    width: 270px;
-    height: 270px;
+    max-width: 270px;
+    max-height: 270px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }
 .experts-list__item-name {
     margin-top: 30px;
@@ -48,7 +52,7 @@
     width: 39px;
     height: 39px;
     border: 1px solid #C6CBCD;
-    margin-right: 6px;
+    margin-right: 6px;   
 }
 .experts-list__item-links a:last-child {
     margin-right: 0px;
@@ -56,4 +60,8 @@
 .experts-list__item-links i {
     font-size: 20px;
     color: #C6CBCD;
+    transition: all 0.3s ease;
+    &:hover {
+        color: #011c41;
+    }
 }
